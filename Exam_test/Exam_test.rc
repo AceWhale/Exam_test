@@ -1,0 +1,147 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 311, 184
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Q",IDC_Q,6,108,26,21,WS_DISABLED
+    PUSHBUTTON      "W",IDC_W,36,108,26,21,WS_DISABLED
+    PUSHBUTTON      "E",IDC_E,66,108,26,21,WS_DISABLED
+    PUSHBUTTON      "R",IDC_R,96,108,26,21,WS_DISABLED
+    PUSHBUTTON      "T",IDC_T,126,108,26,21,WS_DISABLED
+    PUSHBUTTON      "Y",IDC_Y,156,108,26,21,WS_DISABLED
+    PUSHBUTTON      "U",IDC_U,186,108,26,21,WS_DISABLED
+    PUSHBUTTON      "I",IDC_I,216,108,26,21,WS_DISABLED
+    PUSHBUTTON      "O",IDC_O,246,108,26,21,WS_DISABLED
+    PUSHBUTTON      "P",IDC_P,276,108,26,21,WS_DISABLED
+    PUSHBUTTON      "A",IDC_A,18,132,26,21,WS_DISABLED
+    PUSHBUTTON      "S",IDC_S,48,132,26,21,WS_DISABLED
+    PUSHBUTTON      "D",IDC_D,78,132,26,21,WS_DISABLED
+    PUSHBUTTON      "F",IDC_F,108,132,26,21,WS_DISABLED
+    PUSHBUTTON      "G",IDC_G,138,132,26,21,WS_DISABLED
+    PUSHBUTTON      "H",IDC_H,168,132,26,21,WS_DISABLED
+    PUSHBUTTON      "K",IDC_K,228,132,26,21,WS_DISABLED
+    PUSHBUTTON      "J",IDC_J,198,132,26,21,WS_DISABLED
+    PUSHBUTTON      "L",IDC_L,258,132,26,21,WS_DISABLED
+    PUSHBUTTON      "Z",IDC_Z,36,156,26,21,WS_DISABLED
+    PUSHBUTTON      "X",IDC_X,66,156,26,21,WS_DISABLED
+    PUSHBUTTON      "C",IDC_C,96,156,26,21,WS_DISABLED
+    PUSHBUTTON      "V",IDC_V,126,156,26,21,WS_DISABLED
+    PUSHBUTTON      "B",IDC_B,156,156,26,21,WS_DISABLED
+    PUSHBUTTON      "N",IDC_N,186,156,26,21,WS_DISABLED
+    PUSHBUTTON      "M",IDC_M,216,156,26,21,WS_DISABLED
+    PUSHBUTTON      "SPACE",IDC_BUTTON27,246,156,54,21,WS_DISABLED
+    GROUPBOX        "Текст",IDC_STATIC,7,7,297,34
+    LTEXT           "Кол-во ошибок:",IDC_STATIC,6,48,54,8
+    LTEXT           "Кол-во времени: ",IDC_STATIC,7,64,60,8
+    LTEXT           "% верных/неверных клавиш",IDC_STATIC,6,78,98,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | WS_BORDER,6,92,78,6
+    LTEXT           "Кол-во символов:",IDC_STATIC,150,48,60,8
+    GROUPBOX        "Сложность",IDC_STATIC,144,60,156,24
+    CONTROL         "Легкая",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,150,72,39,10
+    CONTROL         "Средняя",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,198,72,45,10
+    CONTROL         "Тяжелая",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,252,72,46,10
+    EDITTEXT        IDC_EDIT1,15,19,281,14,ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    EDITTEXT        IDC_EDIT2,62,45,40,14,ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    EDITTEXT        IDC_EDIT3,66,61,40,14,ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    EDITTEXT        IDC_EDIT4,213,45,40,14,ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    EDITTEXT        IDC_EDIT5,88,88,19,14,ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED
+    LTEXT           "%",IDC_STATIC,109,90,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 177
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
